@@ -1,0 +1,10 @@
+summary: Run OpenRM sanity test
+discover:
+  how: fmf
+  url: https://gitlab.com/mizdebsk/kernel-tests.git
+  ref: openrm-a100
+  test: ^/accelerators/nvidia/openrm-sanity
+execute:
+  how: tmt
+
+
