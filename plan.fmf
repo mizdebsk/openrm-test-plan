@@ -1,5 +1,10 @@
 summary: Run OpenRM sanity test
 discover:
+  - name: install-kernel
+    how: fmf
+    url: https://gitlab.com/redhat/centos-stream/tests/kernel/kernel-tests.git
+    ref: main
+    test: ^/distribution/kernelinstall
   - name: self-test
     how: fmf
   - name: kernel-tests
