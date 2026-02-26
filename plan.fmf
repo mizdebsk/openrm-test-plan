@@ -5,7 +5,7 @@ discover:
   - name: kernel-tests
     how: fmf
     url: https://gitlab.com/mizdebsk/kernel-tests.git
-    ref: openrm-a100
+    ref: openrm-req-nvidia-smi
     test: ^/accelerators/nvidia/openrm-sanity
 execute:
   how: tmt
